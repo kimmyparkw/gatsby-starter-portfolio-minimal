@@ -1,13 +1,13 @@
 module.exports = {
 
     author: "@konstantinmuenster",
-    siteTitle: "Gatsby Starter Portfolio Minimal",
-    siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
-    siteDescription: "A modern one-page portfolio with a clean yet expressive design.",
-    siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
+    siteTitle: "Kimmy Park-Wolmarans",
+    siteShortTitle: "KPW", // Used as logo text in header, footer, and splash screen
+    siteDescription: "A minimal portfolio site to showcase my projects and experience.",
+    siteUrl: "https://kimmypark.com",
     siteLanguage: "en_US",
-    siteIcon: "content/favicon.png", // Relative to gatsby-config file
-    seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+    siteIcon: "content/favicon1.png", // Relative to gatsby-config file
+    seoTitleSuffix: "Kimmy Park-Wolmarans Portfolio", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
 
     splashScreen: false, // Set this to true if you want to use the splash screen
 
@@ -21,34 +21,22 @@ module.exports = {
     socialMedia: [
         {
             name: "Linkedin",
-            url: "https://www.linkedin.com/in/konstantin-muenster/"
-        },
-        {
-            name: "Medium",
-            url: "https://konstantinmuenster.medium.com/"
+            url: "https://www.linkedin.com/in/kimmy-park-wolmarans/"
         },
         {
             name: "Github",
-            url: "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal"
-        },
-        {
-            name: "Behance",
-            url: "https://www.behance.net/konstanmnster"
+            url: "https://github.com/kimmyparkw"
         },
     ],
   
     navLinks: {
         menu: [
             {
-                name: "Articles",
-                url: "/#articles",
-            },
-            {
                 name: "About Me",
                 url: "/#about",
             },
             {
-                name: "Features",
+                name: "Projects",
                 url: "/#projects",
             },
         ],
