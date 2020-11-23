@@ -9,6 +9,7 @@ const StyledButton = styled.button`
   color: #ffffff;
   padding: 1rem;
   margin: 0 ${({ center }) => center ? "auto" : "0"};
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;

@@ -10,6 +10,7 @@ const StyledLogo = styled.div`
   position: relative;
   z-index: 13;
 
+  font-family: 'Philosopher', sans-serif;
   font-size: ${({ size }) => (size ? size : "1.75rem")};
   font-weight: 900;
   color: ${({ theme, color }) => theme.colors[color] || color };

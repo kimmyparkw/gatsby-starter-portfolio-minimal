@@ -12,6 +12,9 @@ module.exports = {
     md: "992px",
     lg: "1200px",
   },
+  fonts: {
+    primary: "Roboto, Arial, sans-serif",
+  },
   borderRadius: "1rem",
   pageWidth: "62.5rem",
   headerHeight: "6.25rem",
