@@ -23,7 +23,7 @@ const GlobalStyle = createGlobalStyle`
         background-color: #ffffff;
         color: ${({ theme }) => theme.colors.text};
         font-size: 1rem;
-        font-family: ${({ theme }) => theme.fonts.primary};
+        font-family: 'Montserrat', sans-serif;
         line-height: 1.5rem;
         font-weight: 400;
         text-rendering: optimizeLegibility;
@@ -55,6 +55,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h1 {
+        font-family: 'Philosopher', sans-serif;
         font-weight: 700;
         font-size: 2rem;
         line-height: 2.375rem;
@@ -66,6 +67,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h2 {
+        font-family: 'Philosopher', sans-serif;
         font-weight: 700;
         font-size: 1.25rem;
         line-height: 1.5rem;
@@ -77,6 +79,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h3 {
+        font-family: 'Philosopher', sans-serif;
         font-weight: 700;
         font-size: 1.75rem;
         line-height: 2.25rem;
@@ -85,6 +88,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h4 {
+        font-family: 'Philosopher', sans-serif;
         font-size: 1rem;
         line-height: 1.5rem;
         font-weight: 400;
